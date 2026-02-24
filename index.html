@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview</title>
+<link href="https://www.cjc116.com/css/reset.css" rel="stylesheet">
+<style type="text/css">
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>穿越時空的揮棒：讀《八月的御所球場》</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Noto Serif TC"', 'serif'],
+                        sans: ['"Noto Sans TC"', 'sans-serif'],
+                    },
+                    colors: {
+                        kyoto: {
+                            night: '#0B132B',
+                            deep: '#1C2541',
+                            moon: '#F9D77E',
+                            fire: '#E65F2B',
+                            paper: '#F8F9FA'
+                        }
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 1s ease-out forwards',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0B132B;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(28, 37, 65, 0.8), transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(230, 95, 43, 0.15), transparent 50%);
+            background-attachment: fixed;
+        }
+        .glass-card {
+            background: rgba(28, 37, 65, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(249, 215, 126, 0.1);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #F9D77E, #FDE6A6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .delay-100 { animation-delay: 100ms; }
+        .delay-200 { animation-delay: 200ms; }
+        .delay-300 { animation-delay: 300ms; }
+        .delay-400 { animation-delay: 400ms; }
+    </style>
+</head>
+<body class="text-kyoto-paper font-sans antialiased min-h-screen flex flex-col items-center selection:bg-kyoto-moon selection:text-kyoto-night">
+
+    <!-- Hero Section -->
+    <header class="w-full max-w-5xl mx-auto px-6 pt-32 pb-20 relative flex flex-col items-center text-center opacity-0 animate-fade-in-up">
+        <!-- Decorative Moon -->
+        <div class="absolute top-10 right-10 md:top-20 md:right-20 w-32 h-32 bg-kyoto-moon rounded-full mix-blend-screen filter blur-[60px] opacity-60 animate-pulse-slow"></div>
+        
+        <!-- Book Cover -->
+        <div class="mb-10 relative group z-10">
+            <div class="absolute -inset-2 bg-gradient-to-r from-kyoto-moon to-kyoto-fire rounded-lg blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
+            <img src="https://cdn.kobo.com/book-images/a1f1598d-5117-4659-bc14-335516d0ad48/180/1000/False/AgzfvV42LTuD-aybOk2iIA.jpg" alt="" class="relative w-40 md:w-52 rounded-sm shadow-2xl object-cover border border-white/10">
+        </div>
+
+        <p class="text-kyoto-moon font-serif tracking-widest text-sm md:text-base mb-6 border-b border-kyoto-moon/30 pb-2 relative z-10">淺田次郎 作品讀後感</p>
+        <h1 class="text-5xl md:text-7xl font-serif font-black mb-6 leading-tight text-gradient relative z-10">
+            穿越時空的揮棒
+        </h1>
+        <h2 class="text-2xl md:text-3xl font-serif font-light text-kyoto-paper/90 tracking-wide mb-12 relative z-10">
+    </header>
+
+    <!-- Main Content -->
+    <main class="w-full max-w-5xl mx-auto px-6 pb-32 grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- Section 1 -->
+        <article class="glass-card rounded-2xl p-8 md:p-10 opacity-0 animate-fade-in-up delay-100 hover:border-kyoto-fire/50 transition-colors duration-500">
+            <div class="mb-6 text-kyoto-fire">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+                </svg>
+            </div>
+            <h3 class="text-2xl font-serif font-bold mb-4 text-kyoto-moon">一、京都的夏日祭典與死者的歸來</h3>
+            <p class="text-kyoto-paper/80 leading-relaxed font-light">
+                故事的背景設定在八月的京都，這個時節正是日本的「盆（O-bon）」，也是死者靈魂跨越邊界回到現世的時間點。小說中，作者精確地捕捉了京都夏日的靜謐與燥熱，尤其是那種在蟬鳴聲中，現實與虛幻邊界逐漸模糊的氛圍。
+            </p>
+            <p class="text-kyoto-paper/80 leading-relaxed font-light mt-4">
+                「五山送火」的儀式在書中不只是背景，更是一種隱喻。當火焰點燃，指引靈魂離去時，那些在御所球場奔跑的身影，正是歷史中被遺忘的一群人。
+            </p>
+        </article>
+
+        <!-- Section 2 -->
+        <article class="glass-card rounded-2xl p-8 md:p-10 opacity-0 animate-fade-in-up delay-200 hover:border-kyoto-moon/50 transition-colors duration-500">
+            <div class="mb-6 text-kyoto-moon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.608 9.608a3 3 0 014.242 0M11 13a1 1 0 100-2 1 1 0 000 2zM9.5 16.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636a9 9 0 010 12.728M5.636 5.636a9 9 0 000 12.728" />
+                </svg>
+            </div>
+            <h3 class="text-2xl font-serif font-bold mb-4 text-kyoto-moon">二、被戰爭沒收的青春</h3>
+            <p class="text-kyoto-paper/80 leading-relaxed font-light">
+                故事的核心是一群在二戰期間被徵召入伍、最終戰死沙場的大學生（學徒出陣）。對於這些年輕人來說，棒球不只是一項運動，更是他們生命中最純粹、最快樂的時光。
+            </p>
+            <p class="text-kyoto-paper/80 leading-relaxed font-light mt-4">
+                當主角在神祕的球賽中遇見這些「球友」時，我們看到的不是駭人的幽靈，而是熱愛棒球、渴望比賽的純真少年。淺田次郎並未用激烈的筆法控訴戰爭，而是透過「那一棒還沒揮完」、「那場球賽還沒結束」的遺憾，讓讀者深刻感受到戰爭奪走的，不僅僅是生命，還有那些原本該充滿無限可能的平庸幸福。
+            </p>
+        </article>
+
+        <!-- Section 3 -->
+        <article class="glass-card rounded-2xl p-8 md:p-10 opacity-0 animate-fade-in-up delay-300 md:col-span-2 lg:col-span-1 hover:border-kyoto-moon/50 transition-colors duration-500">
+            <div class="mb-6 text-kyoto-paper">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                </svg>
+            </div>
+            <h3 class="text-2xl font-serif font-bold mb-4 text-kyoto-moon">三、跨越世代的共鳴</h3>
+            <p class="text-kyoto-paper/80 leading-relaxed font-light mb-6">
+                小說的主角是一個對現實生活感到倦怠的現代年輕人。透過參與這場跨越時空的球賽，他與那些失去未來的同齡人產生了跨越時空的對話。這種對比非常強烈：
+            </p>
+            <div class="space-y-4 mb-6">
+                <div class="bg-kyoto-deep/50 p-4 rounded-lg border border-white/5">
+                    <span class="text-kyoto-fire font-bold tracking-wider text-sm block mb-1">現代人</span>
+                    <span class="font-light text-kyoto-paper/90">擁有時間，卻感到迷惘與虛無。</span>
+                </div>
+                <div class="bg-kyoto-deep/50 p-4 rounded-lg border border-white/5">
+                    <span class="text-kyoto-moon font-bold tracking-wider text-sm block mb-1">昭和少年</span>
+                    <span class="font-light text-kyoto-paper/90">時間被強行終結，卻對每一球、每一次奔跑充滿熱情。</span>
+                </div>
+            </div>
+            <p class="text-kyoto-paper/80 leading-relaxed font-light">
+                這種對比促使主角（以及讀者）重新審視生命。那些在黑暗中奮力揮棒的身影，成了對現世生命最溫柔的提醒。
+            </p>
+        </article>
+
+        <!-- Section 4 -->
+        <article class="glass-card rounded-2xl p-8 md:p-10 opacity-0 animate-fade-in-up delay-400 md:col-span-2 lg:col-span-1 bg-gradient-to-br from-kyoto-deep/80 to-kyoto-night/80 border-kyoto-moon/20 hover:border-kyoto-moon/60 transition-colors duration-500 relative overflow-hidden">
+            <!-- Decorative blur inside card -->
+            <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-kyoto-moon rounded-full mix-blend-screen filter blur-[80px] opacity-30"></div>
+            
+            <div class="mb-6 text-kyoto-moon relative z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                </svg>
+            </div>
+            <h3 class="text-2xl font-serif font-bold mb-4 text-kyoto-moon relative z-10">四、結語：溫柔的安魂曲</h3>
+            <p class="text-kyoto-paper/80 leading-relaxed font-light mb-4 relative z-10">
+                《八月的御所球場》是一篇溫柔的安魂曲。淺田次郎用他擅長的「淺田魔法」，將歷史的沉重轉化為一種哀而不傷的感動。
+            </p>
+            <p class="text-kyoto-paper/90 leading-relaxed font-light relative z-10 italic">
+                「讀完這本書，每當想到京都御所那片廣闊的草地，腦海中彷彿就能看見在夏夜月光下，一群穿著舊式球衣的少年，正汗流浹背地進行著一場永不結束的比賽。」
+            </p>
+            <p class="text-kyoto-paper/80 leading-relaxed font-light mt-4 relative z-10">
+                這是一本適合在夏夜靜靜閱讀的作品，它讓我們在淚光中學會珍惜，也讓我們記住那些曾經活得如此耀眼的靈魂。
+            </p>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full py-8 text-center text-kyoto-paper/40 font-light text-sm tracking-wider border-t border-white/5 opacity-0 animate-fade-in-up delay-400">
+        <p>這部作品與其說是運動小說，不如說是淺田次郎寫給那個時代年輕人的一封遲來的信。</p>
+    </footer>
+
+</body>
+</html>
+<script>
+// Error handling
+window.onerror = function(msg, url, line, col, error) {
+  console.error('Error:', msg, 'at line', line);
+  return false;
+};
+
+
+</script>
+</body>
+</html>
